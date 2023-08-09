@@ -1,0 +1,54 @@
+<!-- Your main page should go here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> final </title>
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "Assignment 3">
+    <meta name = "keywords" content = "HTML, CSS, JavaScript">
+    <meta name = "author" content = "Gagandeep Kaur">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel= "stylesheet" href = "./design.css"/>
+    <table class="top-row" >
+        <TR>
+            <td style="float: left;"><b>BADMINTON: ITS BADMINTON TIME</b></td>
+            <td style="float: right;"><b><a href="about.html">ABOUT</a></b></td>
+            <td style="float: right;"><b><a href="index.html">MAIN</a></b></td>
+            <td style="float: right;"><b><a href="info.html">INFO</a></b></td>
+
+
+        </TR>
+    </table>
+    
+</head>
+
+<body>
+<h1>Reviews of the Game</h1>
+</div>
+
+<div class ="card">           
+<date class = "card-date"></date>
+<review class = "card-review"></rate>
+<rate class = "card-rate"></rate>
+</div>
+
+<div id = "card-container"></div>
+<script src="./js/app.js"></script>
+<script src="./js/data.js"></script>  
+
+<div>
+    
+    <form method="post" action="https://httpbin.org/post">
+        <h2>Add your Review</h2>
+        <div><label>Date</label><input type = "date"></div>
+        <div><label>Review</label><textarea name = "text"> </textarea></div>
+        <div><label>Rating</label><input type="number" id="rating-input" name="rating" min="1" max="5"></div>
+
+        <input type = "hidden" id="Jashan"  name = "Jashan"> <br>
+        <div><button type = "submit">Create</button></div>
+    
+    </form>
+</div>
+</body>
+</html>
